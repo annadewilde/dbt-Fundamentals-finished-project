@@ -39,6 +39,8 @@ models:
       +materialized: table
     snowflake_spend:
       enabled: true
+    staging:
+      +schema: staging
 flags:
   require_generic_test_arguments_property: true
 
